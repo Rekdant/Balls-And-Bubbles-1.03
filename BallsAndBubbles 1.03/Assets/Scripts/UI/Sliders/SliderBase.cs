@@ -11,13 +11,18 @@ public abstract class SliderBase : MonoBehaviour
 
     private void Awake()
     {
-        _slider = GetComponent<Slider>();
-        _slider.onValueChanged.AddListener(OnSliderChangeValueHandler);
+        Init();
+        RespondSliderDragging();
     }
 
-    private void OnDestroy()
+    private void Init()
     {
-        _slider.onValueChanged.RemoveListener(OnSliderChangeValueHandler);
+        _slider = GetComponent<Slider>();
+    }
+
+    private void RespondSliderDragging()
+    {
+        _slider.onValueChanged.AddListener(OnSliderChangeValueHandler);
     }
 
     protected abstract void OnSliderChangeValueHandler(float value);
