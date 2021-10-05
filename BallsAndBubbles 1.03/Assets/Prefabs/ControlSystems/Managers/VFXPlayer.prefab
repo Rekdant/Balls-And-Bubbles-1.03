@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5602859045644662462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5602859045644662460}
+  - component: {fileID: 5079783604240692797}
+  m_Layer: 0
+  m_Name: VFXPlayer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5602859045644662460
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5602859045644662462}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5079783604240692797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5602859045644662462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebfae968af5be66408ca05ea74b73f05, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _effectVFXdatas:
+  - Type: 0
+    VFX: {fileID: 8444468135590755315, guid: 14787d716e69219428af2eef5f57c0c5, type: 3}
+  - Type: 1
+    VFX: {fileID: 8444468135590755315, guid: dd39353754675094a893f7370600df4e, type: 3}
+  - Type: 3
+    VFX: {fileID: 8444468135590755315, guid: c7e5a103c21536749a7b4d1b78e27261, type: 3}
+  - Type: 2
+    VFX: {fileID: 8444468135590755315, guid: 024dd90decd1657479ccb617d60398e9, type: 3}
+  - Type: 4
+    VFX: {fileID: 8444468135590755315, guid: 6a3e64d509cccff44aa238a10ecc8b87, type: 3}
+  - Type: 5
+    VFX: {fileID: 8444468135590755315, guid: 9cd790d71ec7ab6469bec5ba782fb091, type: 3}
+  - Type: 6
+    VFX: {fileID: 5949536656119460058, guid: d82b09adb00f97d4d82a9bdbe2dfc520, type: 3}
+  - Type: 7
+    VFX: {fileID: 5006703234907119859, guid: 251d10e141e3d68468f9e7abd9142a0f, type: 3}
+  - Type: 8
+    VFX: {fileID: 6414751782597544189, guid: 3008438e535967842a63b8f1c6588de7, type: 3}
+  - Type: 9
+    VFX: {fileID: 4272245503504416642, guid: 6ee623a35eed2804f9d24b5a5eca42f1, type: 3}
+  - Type: 10
+    VFX: {fileID: 5186744000780991394, guid: 3e5b43cfab6b5bb43b52096a84866359, type: 3}
+  - Type: 11
+    VFX: {fileID: 4704145186048299648, guid: ee05981bcea780e44b3b3734437f12f4, type: 3}
+  - Type: 12
+    VFX: {fileID: 2777678287154927268, guid: 3f14db94dbdad3245bebdaa37a57aa01, type: 3}
+  - Type: 13
+    VFX: {fileID: 2627717964368481356, guid: ebca72463813e484cb396b49288ead47, type: 3}
+  - Type: 14
+    VFX: {fileID: 3557933972086224963, guid: 12c1879b6ba6fca469b24868c63dc8aa, type: 3}
+  - Type: 15
+    VFX: {fileID: 3647231382199514481, guid: 43d46925df808694eb8454166d52c6f9, type: 3}
