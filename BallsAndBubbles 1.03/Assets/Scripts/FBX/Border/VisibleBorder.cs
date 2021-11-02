@@ -11,7 +11,7 @@ public class VisibleBorder : MonoBehaviour
     private void Awake()
     {
         Init();
-        UnsubscribeFromEvents();
+        SubscribeToEvents();
     }
 
     private void OnDestroy()
